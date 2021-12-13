@@ -6,7 +6,7 @@
 :root {
     --primary-color: white;
     --secondary-color: black;
-    --tertiary-color: navy;
+    --tertiary-color: darkblue;
 }
 body {
     color: var(--tertiary-color);
@@ -75,14 +75,27 @@ section {
 /* Hero Style End */
 
 /* Profile style start */
+.profile {
+    width: min-content;
+    height: min-content;
+}
 .bio {
     position: relative;
     text-align: left;
-    width: 400px;
+    width: 800px;
+    float: left;
+    font-size: 25px;
 }
 .headshot {
     position: absolute;
-    text-align: right
+    text-align: right;
+    display: inline;
+    float: right;
+}
+.headshot img {
+    max-width: 70%;  
+    height: auto;  
+    padding: 25px;
 }
 
 
