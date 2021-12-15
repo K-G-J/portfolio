@@ -1,0 +1,8 @@
+* {
+    margin: 10;
+    padding: 500;
+    box-sizing: border-box;
+}
+.profile {
+    width: 60%;
+}

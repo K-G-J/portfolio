@@ -132,7 +132,7 @@ h2 {
 .video-description p {
     font-size: 17px;
 }
-.demo-videos{
+.demo-videos {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -150,8 +150,20 @@ h2 {
     display: flex;
     flex-wrap: wrap;
 }
+.filter:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
 .filter img {
   width: 100%;
+}
+.filter img:hover {
+    background-color: var(--tertiary-color);
+    border-radius: 15px;
+    border-width: 30px;
+    text-shadow: none;
 }
 .filter {
     padding: 25px;
