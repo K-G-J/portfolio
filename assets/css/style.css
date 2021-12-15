@@ -10,7 +10,7 @@
 }
 body {
     color: var(--tertiary-color);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* apply styles to <header> */
@@ -71,48 +71,42 @@ section {
     background-image: url("../images/banner.png");
     background-position: center;
     background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
     height: 250px;
 }
 /* Hero styling end */
 
 /* Profile styling start */
 .profile {
-    width: min-content;
-    height: min-content;
-}
-.bio {
-    position: relative;
-    text-align: left;
-    width: 800px;
-    float: left;
-    font-size: 25px;
-}
-.headshot {
-    position: absolute;
-    text-align: right;
-    display: inline;
-    float: right;
-}
-.headshot img {
-    max-width: 70%;  
-    height: auto;  
-    padding: 25px;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+    max-width: 100%
+  }
+  .headshot {
+    flex-basis: 40%
+  }
+  .bio {
+    font-size: 20px;
+    padding: 30px;
+    max-width: 800px;
+  }
 /* Profile styling end */
 
 /* Video styling start */
 h2 {
     text-align: center;
     border: 3px 
-    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .video {
     flex: 1;
     margin: 20px;
     background: var(--secondary-color);
     color: var(--primary-color);
+    flex-wrap: wrap;
 }
 .video iframe {
     width: 100%;
@@ -168,6 +162,8 @@ h2 {
 .filter {
     padding: 25px;
     line-height: 1.3;
+    display: flex;
+    flex-wrap: wrap;
 }
 .filter h3 {
     font-size: 28px;
@@ -199,13 +195,22 @@ footer h2 {
     color: var(--secondary-color);
     font-size: 30px;
     margin: 0;
+    text-decoration: none;
 }
 footer div {
     line-height: 1.5;
     text-align: right;
+    text-decoration: none;
 }
 footer a {
     color: var(--secondary-color)
+    text-decoration: none;
+}
+footer a:hover {
+    border-style: solid;
+    border-color: var(--tertiary-color);
+    border-radius: 10px;
+    text-shadow: none;
 }
 section {
     padding: 60px;
@@ -244,10 +249,10 @@ section {
     .section-title {
         width: 80%;
     }
-    .trainer {
+    .video {
         flex: 0 70%;
     }
-    .contact-info iframe {
+    .video iframe {
         flex: 1 100%;
     }
 }
@@ -256,42 +261,15 @@ section {
     section {
         padding: 30px 15px;
     }
-    .step h3 {
-        flex: 1 100%;
-        text-align: center;
-        justify-content: center;
-    }
-    .step-img {
-        flex: 0 32%;
-        margin-right: 0;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-    .step-text {
-        flex: 100%;
-    }
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    .hero-form button {
-        width: 100%;
-    }
     .section-title {
         width: 100%;
     }
-    .intro p {
+    .bio {
         width: 100%;
     }
-    .trainer {
+    .video {
         flex: 0 100%;
     }
-    .contact-info {
-        text-align: center;
-    }
-    .contact-info > * {
-        flex: 0 100%;
-    }
-    .contact-form {
-        order: 3;
-    }
-}
