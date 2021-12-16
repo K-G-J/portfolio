@@ -10,7 +10,7 @@
 }
 body {
     color: var(--tertiary-color);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 /* apply styles to <header> */
@@ -85,7 +85,7 @@ section {
     max-width: 100%
   }
   .headshot {
-    flex-basis: 40%
+    flex-basis: 100%
   }
   .bio {
     font-size: 20px;
@@ -140,8 +140,6 @@ h2 {
     flex: 1;
     margin: 20px;
     color: var(--secondary-color);
-    position: relative;
-    display: flex;
     flex-wrap: wrap;
 }
 .filter:hover {
@@ -172,6 +170,10 @@ h2 {
     font-weight: lighter;
     font-size: 22px;
     margin-bottom: 15px;
+}
+.caption {
+    float: center;
+    clear: both;
 }
 .filters {
     width: 100%;
@@ -204,13 +206,13 @@ footer div {
 }
 footer a {
     color: var(--secondary-color)
-    text-decoration: none;
 }
 footer a:hover {
     border-style: solid;
     border-color: var(--tertiary-color);
     border-radius: 10px;
     text-shadow: none;
+    font-size: larger;
 }
 section {
     padding: 60px;
@@ -240,13 +242,7 @@ section {
         text-align: center;
         width: 100%;
     }
-    .hero-cta, .hero-form {
-        width: 100%;
-    }
-    .hero-cta {
-        text-align: center;
-    }
-    .section-title {
+    .section {
         width: 80%;
     }
     .video {
@@ -254,6 +250,12 @@ section {
     }
     .video iframe {
         flex: 1 100%;
+    }
+    .filter {
+        flex: 0 70%;
+    }
+    .filter img {
+        flex: 1, 100%;
     }
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -272,4 +274,12 @@ section {
     }
     .video {
         flex: 0 100%;
+    }
+    .filter {
+        flex: 0 100%;
+    }
+    .profile {
+        display: flex;
+        align-items:flex-start;
+        flex-wrap: wrap;
     }
