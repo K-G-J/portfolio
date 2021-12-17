@@ -101,6 +101,11 @@ h2 {
     display: flex;
     flex-wrap: wrap;
 }
+#work {
+    border: 3px solid var(--secondary-color);
+    border-radius: 15px;
+    margin: 75px;
+}
 .video {
     flex: 1;
     margin: 20px;
@@ -110,6 +115,9 @@ h2 {
 }
 .video iframe {
     width: 100%;
+}
+.video iframe:hover{
+    transform: scale(1.5);
 }
 .video-description {
     padding: 25px;
@@ -156,6 +164,7 @@ h2 {
     border-radius: 15px;
     border-width: 30px;
     text-shadow: none;
+    transform: scale(1.5);
 }
 .filter {
     padding: 25px;
