@@ -264,7 +264,7 @@ section {
         flex: 0 70%;
     }
     .filter img {
-        flex: 1, 100%;
+        flex: 1 100%;
     }
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
