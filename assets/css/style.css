@@ -220,6 +220,7 @@ h2 {
     border-radius: 15px;
     border-width: 30px;
     text-shadow: none;
+    transform: scale(1.05);
 }
 #robot-gladiators {
     align-items: center;
