@@ -98,13 +98,13 @@ section {
     width: 50%;
 }
 .profile {
-    width: 50%;
     align-items: center;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 350px;
-    margin-top: 20px;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .profile h1 {
     position: relative;
@@ -114,6 +114,7 @@ section {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .experience {
     width: 50%;
