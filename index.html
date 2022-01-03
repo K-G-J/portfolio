@@ -15,21 +15,27 @@
         </h1>
         <!-- Navigation Links -->
         <nav>
-            <ul>
+            <ul class="topnav">
+                <li class="dropdown right">
+                    <a href="javascript:void(0)" class="dropbtn">Work</a>
+                    <div class="dropdown-content">
+                        <a href="#xr">Extended Reality</a>
+                        <a href="#mobile-applications">Mobile Apps</a>
+                        <a href="#ar-filters">AR Filters</a>
+                        <a href="#web">Web Development</a>
+                    </div>
+                </li>>
                 <li>
-                    <a href="#work">Work</a>
+                    <a class="active" href="resume.html">About Me</a>
                 </li>
                 <li>
-                    <a href="resume.html">About Me</a>
+                    <a class="active" href="https://www.linkedin.com/in/kategjohnson/" target="_blank">LinkedIn</a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/kategjohnson/" target="_blank">LinkedIn</a>
+                    <a class="active" href="https://github.com/K-G-J" target="_blank">GitHub</a>
                 </li>
                 <li>
-                    <a href="https://github.com/K-G-J" target="_blank">GitHub</a>
-                </li>
-                <li>
-                    <a href="#footer">Contact</a>
+                    <a class="active" href="#footer">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -63,7 +69,7 @@
 
     <h2 id="work">WORK</h2>
     <!-- Start Video Demo Section -->
-    <section id="demo-videos-1" class="demo-videos">
+    <section id="xr" class="demo-videos">
        <!-- video 1 -->
         <article class="video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/h2RePHBQkuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -75,11 +81,11 @@
         </article>
         <!-- video 2 -->
         <article class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/_o4HgYEfeOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/p8MzoTBx42o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class ="video-description">
-                <h3 class="video-name">rAVe Slots</h3>
-                <h4 class="video-role">App for tradeshow</h4>
-                <p>App to encourage engagement at a tradeshow event in Las Vegas </p>
+                <h3 class="video-name">Head-Turn Game</h3>
+                <h4 class="video-role">AR social media game</h4>
+                <p>Turn your head to move the "rePLAY" logo, gain star points, avoid obstacles </p>
             </div>
         </article>
         <!-- video 3 -->
@@ -98,15 +104,6 @@
         <div class = demo-videos>
       <!-- video 4 -->
       <article class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/p8MzoTBx42o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div class ="video-description">
-            <h3 class="video-name">Head-Turn Game</h3>
-            <h4 class="video-role">AR social media game</h4>
-            <p>Turn your head to move the "rePLAY" logo, gain star points, avoid obstacles </p>
-        </div>
-    </article>
-      <!-- video 5 -->
-      <article class="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/E5jez1Hi940" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class ="video-description">
             <h3 class="video-name">QR Code Product Demo</h3>
@@ -114,7 +111,7 @@
             <p>Scan the image for a customizable AR shopping experience </p>
         </div>
     </article>
-      <!-- video 6 -->
+      <!-- video 5 -->
       <article class="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/2qdJCKRSrgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class ="video-description">
@@ -123,10 +120,19 @@
             <p>Learn all about 3D printing as you explore a model </p>
         </div>
     </article>
+       <!-- video 6 -->
+       <article class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_o4HgYEfeOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class ="video-description">
+            <h3 class="video-name">rAVe Slots</h3>
+            <h4 class="video-role">App for tradeshow</h4>
+            <p>App to encourage engagement at a tradeshow event in Las Vegas </p>
+        </div>
+    </article>
         </div>
     </section>
 
-    <section id="demo-videos-3">
+    <section id="mobile-applications">
         <div class="demo-videos">
               <!-- video 7 -->
         <article class="video">
@@ -160,7 +166,7 @@
     <!-- End Video Demo Section -->
 
     <!-- Snapcode Section -->
-    <section class="social-media-filters-1" >
+    <section id="ar-filters" class="social-media-filters-1" >
         <div class="filter">
             <article class="filter">
                 <a href="https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=d88355d224794c318a467a42019a0b06&metadata=01" target="_blank" >
@@ -243,7 +249,7 @@
     <!-- End Snapcode Section -->
 
     <!-- Web section -->
-    <section class="web-1" >
+    <section id="web" class="web-1" >
         <div class="web">
             <article class="web-item">
                 <a href="https://k-g-j.github.io/run-buddy/" target="_blank" >
@@ -290,11 +296,15 @@
                     <h4 class="platform">Submit, Save, Edit, Move, and Delete Tasks</h4>
                 </div>
             </article>
-        </div>
-    </section>
-    <section class="web-2" >
-        <div class="web">
-
+            <article class="web-item">
+                <a href="https://k-g-j.github.io/coding-quiz/" target="_blank" >
+                    <img src="assets/images/coding-quiz.jpeg">
+                </a>
+                <div class="caption">
+                    <h3 class="web-name">Quiz Application</h3>
+                    <h4 class="platform">Test You Knoweledge and Save Your High Scores</h4>
+                </div>
+            </article>
         </div>
     </section>
     <!-- End Web Section -->

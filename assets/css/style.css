@@ -13,7 +13,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-/* apply styles to <header> */
+/* Header and Navigation Styling */
 header {
     padding: 20px 35px;
     background-color: var(--tertiary-color);
@@ -61,6 +61,31 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+
+ul.topnav li:hover a:not(.active) {
+    background-color: #D3D3D3;
+    color: #000;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav,
+    ul.topnav {position: unset}
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+ul.topnav .dropdown-content {
+  display: none;
+  position: absolute;
+}
+ul.topnav .dropdown-content a {
+    display: flex;
+    flex-direction: column;
+}
+ul.topnav .dropdown:hover > .dropdown-content {
+  display: block;
+}
+  
 section {
     padding: 60px;
 }
