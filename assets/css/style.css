@@ -61,12 +61,16 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
-
 ul.topnav li:hover a:not(.active) {
-    background-color: #D3D3D3;
-    color: #000;
+    background: var(--primary-color);
+    color: var(--secondary-color);
 }
-
+#work-dropdown:hover {
+    border-radius: 0;
+}
+.dropbtn:hover {
+    border-radius: 0;
+}
 @media screen and (max-width: 600px){
     ul.topnav,
     ul.topnav {position: unset}
