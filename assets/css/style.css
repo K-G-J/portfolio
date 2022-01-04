@@ -65,11 +65,8 @@ ul.topnav li:hover a:not(.active) {
     background: var(--primary-color);
     color: var(--secondary-color);
 }
-#work-dropdown:hover {
-    border-radius: 0;
-}
-.dropbtn:hover {
-    border-radius: 0;
+.dropbtn {
+    display: none;
 }
 @media screen and (max-width: 600px){
     ul.topnav,
