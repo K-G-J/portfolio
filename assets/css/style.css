@@ -384,3 +384,35 @@ section {
         align-items:flex-start;
         flex-wrap: wrap;
     }
+    .web-item {
+        padding: 25px;
+        line-height: 1.3;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex-direction: column;
+    }
+    .web h3 {
+        font-size: 28px;
+        flex-direction: column;
+    }
+    .web h4 {
+        font-weight: lighter;
+        font-size: 22px;
+        margin-bottom: 15px;
+        flex-direction: column;
+    }
+    .caption {
+        float: center;
+        clear: both;
+        text-align: center;
+        flex-direction: column;
+    }
+    .web-item {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+    }
