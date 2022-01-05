@@ -213,24 +213,34 @@ section {
         width: 100%;
     }
     .profile {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         margin: auto;
     }
     .experience {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        width: fit-content;
+        margin: auto;
     }
     .skills {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        width: fit-content;
+        margin: auto;
     }
     .education {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        width:fit-content;
+        margin: auto;
     }
     .emoji img {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        width: fit-content;
+        margin: auto;
     }
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -238,25 +248,38 @@ section {
     section {
         padding: 30px 15px;
     }
+    .hero {
+        width: 100%;
+    }
     .profile {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         margin: auto;
     }
     .experience {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        width: fit-content;
+        margin: auto;
     }
     .skills {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        width: fit-content;
+        margin: auto;
     }
     .education {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        width:fit-content;
+        margin: auto;
     }
     .emoji img {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        width: fit-content;
+        margin: auto;
     }
 }
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -265,33 +288,45 @@ section {
         width: 100%;
     }
     .profile {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         margin: auto;
     }
     .experience {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        width: fit-content;
+        margin: auto;
     }
     .skills {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        width: fit-content;
+        margin: auto;
     }
     .education {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        width:fit-content;
+        margin: auto;
     }
     .emoji img {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        width: fit-content;
+        margin: auto;
     }
     section {
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
+        justify-content: center;
+        margin: auto;
     }
     body {
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
+        justify-content: center;
+        margin: auto;
     }
 }
