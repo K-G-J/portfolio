@@ -221,14 +221,19 @@ h2 {
 
 /* Web styling start */
 .web {
-    flex: 1;
-    margin: 20px;
+    width: 100%;
     color: var(--secondary-color);
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     align-self: center;
+    flex-direction: row;
+}
+.web-item {
+    display: flex;
     flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
 }
 .web:hover {
     background: var(--primary-color);
